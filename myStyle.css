@@ -1,0 +1,89 @@
+*{
+    text-align: center;
+}
+.main{
+    width: 1248px;
+    height: 1546.88px;
+    margin: 0px -234.667px 0px 0px;
+}
+.page{
+    width: 1060.79;
+    height: 1546.88;
+    margin: 0px 0px 0px 96px;
+    padding: 0px 0px 64px;
+}
+.collaborate{
+    width: 1060.79px;
+    height: 32px;
+    color: #212529;
+    font: 24px "Roboto Slab",serif;
+    margin: 31.92px 0px 48px;
+    padding: 0px 0px 0px 24px; 
+}
+.service-info{
+    width: 520.31px;
+    height: 320.96px;
+    padding: 0px 96px 0px 0px;
+    display: inline-block;
+}
+h2{
+    width: 424.31px;
+    height: 121.56px;
+    color: #212529;
+    font: 48px "Roboto Slab", serif;
+    padding: 6.4px 48px 0px 0px;
+}
+h3{
+    width: 424.31px;
+    height: 95.98px;
+    color: #212529;
+    font: 17.6px "Roboto Slab",serif;
+    margin: 17.6px 0px;
+    padding: 38.4px 0px 9.6px;
+}
+.service-link{
+    width: 424.31px;
+    height: 68.25px;
+}
+p{
+    width: 205.9px;
+    height: 26.67px;
+    color: #212529;
+    font: 20.8px "Roboto Slab",serif;
+    margin: 20.8px 35.2px 20.8px 0px;
+}
+.services{
+    width: 1060.79px;
+    height: 1402.88px;
+}
+.service-image-1{
+    width: 451.4px;
+    height: 272px;
+}
+.service-image{
+    width: 450.56px;
+    height: 272px;
+}
+.service-image-ns{
+    width: 451.4px;
+    height: 272px;
+}
+.dark-mode{
+    width: 193.13px;
+    height: 48.5px;
+    color: #f0f8ff;
+    font: 16.32px Arial;
+    background-color: #212529;
+    margin: 54.4px 0px 0px;
+    padding: 13.6px 27.2px;
+}
+.root{
+    width: 1464px;
+    height: 1546.88px;
+   
+}
+html{
+    width:1464px;
+    height: 1578.79px;
+    
+}
