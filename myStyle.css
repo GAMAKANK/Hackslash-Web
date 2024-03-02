@@ -1,7 +1,5 @@
-*{
-    text-align: center;
-}
-.main{
+
+ .main{
     width: 1248px;
     height: 1546.88px;
     margin: 0px -234.667px 0px 0px;
@@ -15,10 +13,18 @@
 .collaborate{
     width: 1060.79px;
     height: 32px;
-    color: #212529;
+   
     font: 24px "Roboto Slab",serif;
     margin: 31.92px 0px 48px;
-    padding: 0px 0px 0px 24px; 
+    padding: 0px 0px 0px 24px;
+}
+h4{
+    width: 901.67px;
+    height: 27px;
+    color: #212529;
+    font: 20.4px "Roboto Slab",serif;
+    margin: 27.132px 0px 40.8px;
+    padding: 0px 0px 0px 20.4px;
 }
 .service-info{
     width: 520.31px;
@@ -27,12 +33,16 @@
     display: inline-block;
 }
 h2{
-    width: 424.31px;
+     width: 424.31px;
     height: 121.56px;
     color: #212529;
     font: 48px "Roboto Slab", serif;
-    padding: 6.4px 48px 0px 0px;
+    padding: 6.4px 48px 0px 0px; 
+
+
+   
 }
+
 h3{
     width: 424.31px;
     height: 95.98px;
@@ -41,10 +51,10 @@ h3{
     margin: 17.6px 0px;
     padding: 38.4px 0px 9.6px;
 }
-.service-link{
+ .service-link{
     width: 424.31px;
     height: 68.25px;
-}
+} 
 p{
     width: 205.9px;
     height: 26.67px;
@@ -68,15 +78,7 @@ p{
     width: 451.4px;
     height: 272px;
 }
-.dark-mode{
-    width: 193.13px;
-    height: 48.5px;
-    color: #f0f8ff;
-    font: 16.32px Arial;
-    background-color: #212529;
-    margin: 54.4px 0px 0px;
-    padding: 13.6px 27.2px;
-}
+
 .root{
     width: 1464px;
     height: 1546.88px;
@@ -87,3 +89,52 @@ html{
     height: 1578.79px;
     
 }
+.img{
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+   
+  }
+  .outer-image-holder{
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  }
+  .img:hover .outer-image-holder{
+    transform: rotateY(180deg);
+  }
+  .image-holder-phone, .image-holder-pc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+  
+  .image-holder-pc {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  } 
+body{
+    background-color: rgb(234, 235, 242);
+    color: #212529;
+    }
+
+  
+  .dark-mode{
+    background-color: black;
+    color: white;
+    
+  }
+.s1, .s2, .s3, .s4{
+    display: flex;
+    margin: 1px;
+}
+ 
