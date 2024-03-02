@@ -15,3 +15,7 @@ Created basic structure using html-<br>
 ![hack#5](https://github.com/GAMAKANK/Hackslash-Web/assets/155304917/868eeda5-7583-48f5-b1f4-31a0a29ab3d8)
 ![hack#6](https://github.com/GAMAKANK/Hackslash-Web/assets/155304917/20672817-97da-4ebc-bbac-c60b2be78f91)
 ![hack#7](https://github.com/GAMAKANK/Hackslash-Web/assets/155304917/beb1d3c6-1976-4558-861d-24a301f3f1ca)
+
+<br><br><b>Final look</b>![hack-nice -3](https://github.com/GAMAKANK/Hackslash-Web/assets/155304917/eb6991fb-d817-4c82-aec7-d8c03c9d4283)
+![hack-nice -2JPG](https://github.com/GAMAKANK/Hackslash-Web/assets/155304917/fc88fa41-85b8-4b69-ac5d-f54d5720128a)
+![hack-nice](https://github.com/GAMAKANK/Hackslash-Web/assets/155304917/bcca5080-fdc1-4bdf-b922-45a5d642b366)
