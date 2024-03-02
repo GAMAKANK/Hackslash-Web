@@ -13,10 +13,14 @@
 .collaborate{
     width: 1060.79px;
     height: 32px;
-   
+    cursor: pointer;
     font: 24px "Roboto Slab",serif;
     margin: 31.92px 0px 48px;
     padding: 0px 0px 0px 24px;
+
+}
+.collaborate :hover{
+    color: grey;
 }
 h4{
     width: 901.67px;
@@ -37,30 +41,41 @@ h2{
     height: 121.56px;
     color: #212529;
     font: 48px "Roboto Slab", serif;
-    padding: 6.4px 48px 0px 0px; 
-
-
-   
+    padding: 0px 0px 0px 0px; 
+    cursor: pointer;
+    display: block;
+    margin: 0px 0px 0px 0px;  
 }
+
 
 h3{
     width: 424.31px;
     height: 95.98px;
     color: #212529;
     font: 17.6px "Roboto Slab",serif;
-    margin: 17.6px 0px;
-    padding: 38.4px 0px 9.6px;
+    margin: 15px 0px;
+    padding: 0px 0px 0px;
+   
 }
  .service-link{
     width: 424.31px;
     height: 68.25px;
+    display: flex;
+    padding: 0px;
 } 
 p{
+    cursor: pointer;
     width: 205.9px;
     height: 26.67px;
     color: #212529;
     font: 20.8px "Roboto Slab",serif;
-    margin: 20.8px 35.2px 20.8px 0px;
+    margin: 17.68px 29.92px 0px 0px;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+
+}
+p:hover{
+    color: grey;
 }
 .services{
     width: 1060.79px;
@@ -123,18 +138,44 @@ html{
     transform: rotateY(180deg);
   } 
 body{
-    background-color: rgb(234, 235, 242);
-    color: #212529;
-    }
-
-  
-  .dark-mode{
-    background-color: black;
-    color: white;
+    background-color: #f0f8ff;
+    color: black;
+    
+}
+.dark-mode{
+    background-color: #212529;
+    color: #f0f8ff;
     
   }
 .s1, .s2, .s3, .s4{
     display: flex;
     margin: 1px;
+}
+button{
+    appearance: auto;
+  
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+  
+    box-sizing: border-box;
+   
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+   
+}
+.pointer{
+    width:26px;
+    height: 59.34px;
+    padding: 0px 0px 0px;
+    cursor: pointer;
+    margin-left: 0px ;
 }
  
